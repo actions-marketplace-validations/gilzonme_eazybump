@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Update Package Version
-        uses: your-action-name # Replace with the actual name of your custom action
+        uses: eazybump
         with:
           npm-token: ${{ secrets.NPM_AUTH_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
