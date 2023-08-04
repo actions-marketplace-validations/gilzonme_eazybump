@@ -1,7 +1,8 @@
 name: 'eazybump'
 description: 'Bump package.json with ease for your npm package.'
-color: 'green'
-icon: 'arrow-up-circle'
+branding:
+  color: 'green'
+  icon: 'arrow-up-circle'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
